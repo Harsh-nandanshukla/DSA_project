@@ -1,10 +1,9 @@
-# 🕒 Dynamic Task Scheduling using Interval Trees
+#  Dynamic Task Scheduling using Interval Trees
 
 This C++ project implements a **dynamic task scheduling system** using an **augmented Red-Black Interval Tree**. The goal is to manage concurrent time-bound tasks across multiple workers (or processors), ensuring high-priority tasks are always scheduled, and lower-priority tasks can be preempted if needed.
 
----
 
-## 🔧 Features
+##  Features
 
 -  Insert intervals with conflict detection
 -  Automatically assign tasks to available workers
